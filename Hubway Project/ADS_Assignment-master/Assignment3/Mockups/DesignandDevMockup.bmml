@@ -1,0 +1,32 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1357" measuredH="749" mockupW="1317" mockupH="729">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::SiteMap" x="333" y="48" w="-1" h="-1" measuredW="700" measuredH="430" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Webapp%0A-%20Front%20end%0A--%20Bootstrap%0A--%20HTML%0A--%20CSS%0A-%20Backend%0A--%20Request%0A---%20API%20key%0A---%20POST%20URI%0A--Response%0A---%20Score%20values</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Accordion" x="40" y="104" w="-1" h="-1" measuredW="243" measuredH="645" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Input%20Variables%0Astate%3A%20discrete.%0Aaccount%20length%3A%20integer.%0Aarea%20code%20%3A%20integer%0Aphone%20number%20%3A%20integer%0Ainternational%20plan%3A%20discrete.%0Avoice%20mail%20plan%3A%20discrete.%0Anumber%20vmail%20messages%3A%20integer.%0Atotal%20day%20minutes%3A%20float.%0Atotal%20day%20calls%3A%20integer.%0Atotal%20day%20charge%3A%20float.%0Atotal%20eve%20minutes%3A%20float.%0Atotal%20eve%20calls%3A%20integer.%0Atotal%20eve%20charge%3A%20float.%0Atotal%20night%20minutes%3A%20float.%0Atotal%20night%20calls%3A%20integer.%0Atotal%20night%20charge%3A%20float.%0Atotal%20intl%20minutes%3A%20float.%0Atotal%20intl%20calls%3A%20integer.%0Atotal%20intl%20charge%3A%20float.%0Anumber%20customer%20service%20calls%3A%20integer.</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Arrow" x="864" y="320" w="56" h="10" measuredW="150" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>1</curvature>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="860" y="286" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::HelpButton" x="60" y="20" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::HelpButton" x="883" y="337" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="1104" y="157" w="-1" h="-1" measuredW="253" measuredH="479" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Actual%20Weebservice%20variable%20Variables%0A%20%0A-%5Bx%5Dstate%3A%20discrete.%0A%5Bx%5Daccount%20length%3A%20integer.%0A%5B-%5D%20area%20code%20%3A%20integer%0A%5B-%5D%20phone%20number%20%3A%20integer%0A%5Bx%5Dinternational%20plan%3A%20discrete.%0A%5Bx%5Dvoice%20mail%20plan%3A%20discrete.%0A%5Bx%5Dnumber%20vmail%20messages%3A%20integer.%0A%5B-%5D%20total%20day%20minutes%3A%20float.%0A-%5Bx%5Dtotal%20day%20calls%3A%20integer.%0A%5Bx%5Dtotal%20day%20charge%3A%20float.%0A%5B-%5D%20total%20eve%20minutes%3A%20float.%0A-%5Bx%5Dtotal%20eve%20calls%3A%20integer.%0A%5Bx%5Dtotal%20eve%20charge%3A%20float.%0A%5B-%5Dtotal%20night%20minutes%3A%20float.%0A-%5Bx%5Dtotal%20night%20calls%3A%20integer.%0A%5Bx%5Dtotal%20night%20charge%3A%20float.%0A%5B-%5D%20total%20intl%20minutes%3A%20float.%0A%5Bx%5Dtotal%20intl%20calls%3A%20integer.%0A%5Bx%5Dtotal%20intl%20charge%3A%20float.%0A%5Bx%5Dnumber%20customer%20service%20calls%3A%20integer.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,149 @@
+﻿@model paas_demo.Models.WebAppViewModel
+
+@{
+    ViewBag.Title = "Webapp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Breadcrumbs {
+    <ol class="breadcrumb navbar-breadcrumb">
+        <li>Request Response Form</li>
+    </ol>
+}
+<p>
+    &nbsp;
+</p>
+<p>
+    &nbsp;
+</p>
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="row">
+            <div class="col-xs-2 form-group">
+                </div>
+                <div class="col-xs-5 form-group">
+                    @Html.LabelFor(model => model.Population, htmlAttributes: new { @class = "control-label col-md-6" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.Population, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Population, "", new { @class = "text-danger" })
+
+                    </div>
+                </div>
+                <div class="col-xs-5 form-group">
+                    @Html.LabelFor(model => model.AgeGreaterThan65, htmlAttributes: new { @class = "control-label col-md-6" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.AgeGreaterThan65, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.AgeGreaterThan65, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-xs-2 form-group">
+            </div>
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.Black, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Black, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Black, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.Latino, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Latino, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Latino, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 form-group">
+            </div>
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.White, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.White, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.White, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.HighSchool, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.HighSchool, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.HighSchool, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 form-group">
+            </div>
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.Bachelors, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Bachelors, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Bachelors, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.MedianHouseholdIncome, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.MedianHouseholdIncome, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MedianHouseholdIncome, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 form-group">
+            </div>
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.BelowPovertylevel, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.BelowPovertylevel, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.BelowPovertylevel, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-xs-5 form-group">
+                @Html.LabelFor(model => model.PopulationPSM, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.PopulationPSM, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.PopulationPSM, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+            <input type="submit" value="Submit" class="btn btn-primary btn-lg btn-block" />
+
+
+            <p>
+                &nbsp;
+            </p>
+            <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4">Fraction of Votes:</div>
+                <div class="col-xs-4" style="color:red;">
+                    <Label ID="outputsp" Text="">
+                        @if (ViewBag.Message != null)
+                {
+                            @ViewBag.Message
+                        }
+                    </Label>
+                </div>
+            </div>
+            <p>
+                &nbsp;
+            </p>
+        </div>
+        }
+
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
